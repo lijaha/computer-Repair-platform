@@ -1,0 +1,298 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+	<head>
+		<meta charset="UTF-8">
+		<meta http-equiv="X-UA-Compatible"content="IE=edge"/>
+		<meta name="viewport" content="width = device - width,initial-scale=1"/>
+		<title>主页面</title>
+		<link rel="stylesheet" href="bootstrap-3.3.5-dist/css/bootstrap.min.css" />
+		<link rel="stylesheet" type="text/css" href="bootstrap-3.3.5-dist/css/bt-frage.css"/>
+		<link rel="stylesheet" href="bootstrap-3.3.5-dist/animate.css" />   //引入动画插件
+	</head>
+	<body>
+		
+		<!--导航栏-->
+		<nav class="navbar navbar-default navbar-fixed-top">
+			<div class="container">
+				<!--小屏幕导航按钮和brand-->
+				<div class="navbar-header">
+					<button class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+					<span class="icon-bar"></span>  
+					<span class="icon-bar"></span>
+					<span class="icon-bar"></span>
+				</button>
+				<a href="#" class="navbar-brand">碎片网</a>
+				</div>				
+				<!--导航-->
+				<div class="navbar-collapse collapse">
+					<ul class="nav navbar-nav navbar-right">
+						<li><a href="#home">介绍</a></li>
+						<li><a href="#bbs">论坛</a></li>
+						<li><a href="#scenery">文章</a></li>	
+						<li><a href="#travel">小游世界</a></li>	
+						<li><a href="#"><span class="glyphicon glyphicon-option-vertical"></span></a></li>
+						<li><a href="#contact">联系我们</a></li>
+						<li><a href="#">退出登录</a></li>
+					</ul>
+				</div>
+			</div>	
+		</nav>
+		<!--end--> 	
+		
+		<!--主屏幕介绍区域-->
+		<section id="home">
+			<div class="lj"><!--这是滤镜效果-->
+				<div class="row wow bounceInDown" data-wow-duration = "1s">
+					<div class="col-md-1"></div>
+					<div class="col-md-10">
+						<h1>Welcome to the Fragment !</h1> 
+						<p>the Fragment is about different countries of their backgrounds,cultures,sceneries and so on.
+						<br />You can know something ahout different countries on this website.
+						</p>
+						<h2>世界那么大，尽在碎片网</h2>
+						<br />
+						<div class="row">
+							<div class="col-md-4"></div>
+							<div class="col-md-4">
+							<a href="information.html" class="btn btn-info form-control">个人主页</a>
+							<br /><br />
+								<div class="row">
+									<div class="col-md-6">
+										<a href="login.html" class="btn btn-info form-control">登录</a>
+									</div>
+									<div class="col-md-6">
+										<a href="regist.html" class="btn btn-info form-control">注册</a>
+									</div>
+								</div>
+							</div>	
+						</div>
+					<div class="col-md-1"></div>
+				</div>
+			</div>   
+		</section>
+		<!--end--> 
+		
+		<!--风景,文化，其他交流论坛的链接区域-->
+		<section id="bbs">
+			<div class="container">
+				<!--警告框显示（感觉效果很好哈哈）-->
+				<div class="alert alert-danger wow bounceIn" data-wow-duration = "1.5s">
+					<a href="bbsAndmess.html">BBS论坛交流</a>
+				</div>
+				<!--栅格系统排版-->
+				<div class="row">
+					<div class="col-md-4 wow bounceInLeft" data-wow-duration = "1.5s">
+						<img src="img/102.jpg" class="img-responsive" alt="picture" />
+						<h3>风景</h3>
+						<p>赏一盏梅，品一轮月，抒心中情怀。</p>
+					</div>
+					<div class="col-md-4 wow bounce" data-wow-duration = "1.5s">
+						<img src="img/108.jpg" class="img-responsive" alt="picture" />
+						<h3>文化</h3>
+						<p>享春节浓，喜圣诞味，分旅途之乐。</p>
+					</div>
+					<div class="col-md-4 wow bounceInRight" data-wow-duration = "2s">
+						<img src="img/0.jpg" class="img-responsive" alt="picture" />
+						<h3>其他</h3>
+						<p>或于他物，或于他人，皆可分享。</p>
+					</div>
+				</div>
+			</div>
+			<hr /><hr />
+		</section>
+		<!--end--> 
+		
+		<!--风景,文化和其他链接到发表文档区域-->
+		<section id="scenery">	
+			<div class="container">				
+				<div class="row">
+					<div class="col-md-6 wow rotateInDownLeft">
+						<h2><strong>风景&nbsp;&nbsp;文化&nbsp;&nbsp;其他</strong></h2>
+						<p><span class="dero glyphicon glyphicon-film"></span>&nbsp;&nbsp;&nbsp;&nbsp;
+						美丽的风景，是否给你留下深刻的印象呢？？
+						<br />
+						<p><span class="dero glyphicon glyphicon-film"></span>&nbsp;&nbsp;&nbsp;&nbsp;
+						不同的文化，是否曾经触碰过你的心灵呢？？
+						<br />
+						<p><span class="dero glyphicon glyphicon-film"></span>&nbsp;&nbsp;&nbsp;&nbsp;
+						亦或是他人或他物，留在你的记忆中呢？？
+						<br />
+						<span class="dero glyphicon glyphicon-pencil"></span>&nbsp;&nbsp;&nbsp;&nbsp;那么，就说你心中所想，写你旅途所遇，发表您的文章吧！
+						</p>
+						<a href="article.html" class="btn btn-info form-control">发表文章</a>
+					</div>
+<!--					<div class="col-md-1"></div>-->
+					<div class="col-md-6 wow rotateInDownRight">
+						<!--风景轮播图区域-->
+						<!--<img src="img/103.jpg" class="img-responsive img-thumbnail" alt="picture" />-->
+						<div class="carousel slide" data-ride="carousel" id="carId">
+							<!--轮播图的图片-->
+							<div class="carousel-inner">
+								<div class="item"><img src="img/106.jpg" alt="picture" class="img-responsive img-thumbnail"/></div>
+								<div class="item active"><img src="img/103.jpg" alt="picture" class="img-responsive img-thumbnail"/></div>
+								<div class="item"><img src="img/104.jpg" alt="picture" class="img-responsive img-thumbnail"/></div>
+								<div class="item"><img src="img/105.jpg" alt="picture" class="img-responsive img-thumbnail"/></div>
+							</div>
+							<!--轮播图的小圆圈-->
+							<ol class="carousel-indicators">
+								<li data-slide-to="0" data-target="#carId"></li>
+								<li data-slide-to="1" data-target="#carId"></li>
+								<li data-slide-to="2" data-target="#carId"></li>
+								<li data-slide-to="3" data-target="#carId"></li>
+							</ol>
+							<!--轮播图的左右箭头-->
+							<a href="#carId" data-slide = "prev" class="left carousel-control">
+								<span class="glyphicon glyphicon-chevron-left"></span>
+							</a>
+							<a href="#carId" data-slide = "next" class="right carousel-control">
+								<span class="glyphicon glyphicon-chevron-right"></span>
+							</a>
+						</div>
+					</div>
+				</div>
+			</div>
+			<hr /><hr />
+		</section>
+		<!--end--> 
+		
+		<!--小游世界链接-->
+		<section id="travel">
+			<div class="container">
+				<div class="row">
+					<a href="scenery.html">
+						<div class="col-md-4 wow rotateInUpLeft">
+							<h3>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<strong>千里之行，始于小游</strong></h3>
+							<img src="img/129.jpg" class="img-responsive img-circle"/>
+						</div>
+					</a>
+					<a href="#">
+						<div class="col-md-8 wow rotateInUpRight">
+							<p>
+								想旅游又怕没有时间？？
+								<br /><br />
+								节假日想旅游又怕花钱只是看人？？
+								<br /><br />
+								那么，轻点鼠标，进入小游世界~世界就在你眼前~
+								<br /><br />
+								<a href="scenery.html" class="btn btn-info form-control">
+									小游世界
+								</a>
+							</p>
+						</div>
+					</a>
+				</div>
+			</div>
+		</section>
+		<!--end-->
+		
+		<!--联系与反馈-->
+		<section id="contact">
+			<div class="lj">
+				<div class="container">
+					<div class="row">
+						<!--左边区域-->
+						<div class="col-md-6 wow flipInX">
+							<h3>联系碎片人</h3>
+							<p>听过很多道理,依然过不好这一生?
+							走过很多路，却止与上一秒？
+							<br />
+							碎片网给您平台，让您一览世界，畅说心言！
+							</p>
+							<address>
+								<p>
+									<span class="glyphicon glyphicon-home"></span>
+									地址：在路上</p>
+								<p>
+									<span class="glyphicon glyphicon-earphone"></span>
+									联系电话：012-3456789</p>
+								<p>
+									<span class="glyphicon glyphicon-send"></span>
+									邮箱：@Ertsul'mail</p>
+							</address>
+						</div>
+						
+						<div class="col-md-1"></div>
+						
+						<!--右边区域-->
+						<div class="col-md-5 wow flipInY">
+									<input type="text" placeholder="您的姓名" class="form-control"/>									
+									<div class="radio">
+										性别：&nbsp;&nbsp;
+										<label><input type="radio" name="sex" value="man" />男</label>
+										&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+										<label><input type="radio" name="sex" value="woman" />女</label>
+									</div>
+									<div class="radio">
+										职业：&nbsp;&nbsp;
+										<label><input type="radio" name="job" value="student" />学生</label>
+										&nbsp;&nbsp;
+										<label><input type="radio" name="job" value="teacher" />老师</label>
+									</div>
+										<input type="text" placeholder="您的修机地点" class="form-control"/>
+										<input type="text" placeholder="您的短号" class="form-control"/>
+										<textarea rows="3" placeholder="问题描述" class="form-control"></textarea>
+										<p>
+											<div class="radio">
+												如有需要是否同意拆机：&nbsp;&nbsp;
+												<label><input type="radio" name="choose" value="agree" />同意</label>
+												&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+												<label><input type="radio" name="choose" value="disagree" />不同意</label>
+											</div>
+										</p>
+										<h5 class="lastSaying">
+											本次维修最终解释权归计算机协会所有。
+										</h5>
+								<button class="btn btn-primary form-control">提交</button>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+		<!--end-->
+
+		<!--底部-->
+		<section id="bottomThing">
+			<div class="row">
+				<div class="col-md-4"></div>
+				<div class="col-md-4">
+					<ul class="breadcrumb wow shake">
+						<li>Design By Ertsul.</li>
+						<li>179445828@qq.com</li>
+					</ul>
+				</div>
+			</div>
+		</section>
+		<!--end-->
+		
+		<script src="bootstrap-3.3.5-dist/jquery-2.1.4.min.js"></script>
+		<script src="bootstrap-3.3.5-dist/js/bootstrap.js"></script>
+		<script src="bootstrap-3.3.5-dist/jquery.singlePageNav.min.js"></script>  <!--引入设置状态栏链接跳转的动态效果所需的插件-->
+		<script src="bootstrap-3.3.5-dist/wow.min.js"></script>   <!--wow与animate结合使用-->
+			<script type="text/javascript">				
+				$(function(){
+					//设置状态栏链接跳转的动态效果
+					$('.nav').singlePageNav({
+						offset:80  //设置偏移量
+					});
+					$(function(){
+						//设置小屏幕点击跳转自动隐藏的效果
+						$('.navbar-collapse a').click(function(){
+							$('.navbar-collapse').collapse('hide');
+						})
+					})
+					new WOW().init()     //执行动画语句
+				})
+			</script>
+	</body>
+</html>
+
+
+
+
+
+
+
+
+
+
+

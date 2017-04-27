@@ -1,0 +1,58 @@
+#one .glyphicon-grain{
+	color: darkblue;
+}
+#one{
+	box-shadow: 0px 2px 8px 0px rgba(50,50,50,0.9);
+}
+#one .container a{
+	text-decoration: none;
+}
+#one .container .glyphicon{
+	font-size: 15px;
+}
+#one .container .glyphicon:hover{
+	color: orangered;
+}
+#one .glyphicon-star-empty{
+	color: red;
+	font-size: 20px;
+}
+#two .two_left{
+	box-shadow: 0px 2px 8px 0px rgba(50,50,50,0.25);
+}
+#two .message .well{
+	font-family: "微软雅黑";
+	font-weight: bolder;
+	box-shadow: 0px 2px 8px 0px rgba(50,50,50,0.25);
+}
+#two .message .well h4{
+	color: darkslateblue;
+}
+.jumbotron{
+	background:url(../../img/23.jpg);
+	background-position-y: 60px;
+}
+.jumbotron img{
+	width: 40px;
+	height: 40px;
+	border-radius: 40px;
+}
+.jumbotron a{
+	text-decoration: none;
+}
+.jumbotron p{
+	font-size: 15px;
+	margin-top: 15px;
+}
+.jumbotron .media{
+	margin: 0px 0px;
+}
+#twoo a{
+	color: cadetblue;
+	text-decoration: none;
+}
+#twoo a:hover{
+	color: #2AABD2;
+}
+
+

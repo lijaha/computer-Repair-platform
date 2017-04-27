@@ -1,0 +1,9 @@
+#all{
+	width: 100%;
+	height: 800px;
+	background:url(../../img/101.jpg);
+}
+#verifyCodeImg{
+	width: 100px;
+	height: 40px;
+}
